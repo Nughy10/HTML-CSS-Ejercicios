@@ -1,0 +1,325 @@
+body {
+    font: normal 18px sans-serif;
+    background: rgb(36, 36, 46);
+}
+.header-content {
+    background-color: rgb(36, 36, 46);
+    width: 100%;
+    height: 150px; /*160-10*/
+}
+.header-content__logo {
+    float: left;
+    margin-top: 0px; /*35-5=30*/
+    margin-left: 0px;
+    width: 100px;
+    height: auto;
+}
+.logo-img {
+    width: 150px;
+    height: auto;
+}
+.header-content__nav {
+    float: right;
+    margin: 63px; /*68-5= 63*/
+    margin-right: 20px;
+}
+.header-content__nav a {
+    margin: 10px;
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: rgb(172, 114, 8);
+} 
+.div-content__img {
+    height: 100%;
+    width: 100%;
+}
+.div-content__img img{
+    width: 100%;
+    height: 100%;
+}
+.section-concepto {
+    margin: auto;
+    width: 700px;
+    height: 500px;
+    padding-top: 20px;
+    padding-bottom: 120px;
+    background-image: url(https://i.pinimg.com/originals/da/7c/e3/da7ce36da373a8b1b8b901deb90057d1.png);
+    background-size: cover;
+}
+.section-concepto__art {
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 60px;
+    padding-top: 40px;  
+    width: 350px;
+    height: 300px;
+    background-color: rgb(206, 226, 202);
+}
+.section-concepto__art h4 {
+    text-align: center;
+    margin-bottom: 50px;
+    text-decoration: underline overline;
+}
+.section-concepto__art p {
+    text-align: justify;
+    font-size: 14px;
+    font-style: oblique;
+}
+.galeria {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: auto;
+    height: auto;
+    background-image: url(https://unsplash.it/1200/1200?image=634) ;
+    background-size: cover;
+}
+.row {
+    margin-left: 180px;
+}
+.row img { 
+    display: inline-block;
+    width: 300px;
+    height: auto;
+    margin: 10px;
+    border-style: solid;
+    border-color: rgb(206, 226, 202);
+    border-width: 6px;
+}
+.carta {
+    padding: 60px;
+    background-color:rgb(206, 226, 202) ;  
+}
+.carta h4 {
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline overline; 
+}
+.carta__nav {
+    float: left;
+    margin-top: 30px;
+    margin-left: 368px;
+}
+.carta__nav a {
+    margin: 40px;
+    display: inline;
+    font-size: 15px;
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: rgb(206, 134, 146);
+    font-weight: bold;
+}
+.carta-section{
+    margin: auto;
+    margin-top: 100px;
+    padding: 40px;
+    width: 1000px;
+    height: 1300px;
+    background-image: url(https://i.pinimg.com/originals/7a/1f/7b/7a1f7b54f503286de49b025bab9855d5.jpg);
+    background-size: cover;
+}
+.carta-section__art1{
+    padding: 30px;
+    float: left;
+    width: 450px;
+    background-color:rgb(255, 255, 255) ;
+    position: relative; 
+}
+.price-section-art1{
+    width: 50px; 
+    background-color:rgb(255, 255, 255) ;
+    position: absolute; 
+    margin-left: 450px; 
+    margin-top: 85px; 
+}
+.carta-section__art2{
+    padding: 30px;
+    float: right;
+    width: 400px;
+    background-color:rgb(255, 255, 255) ;
+    position: relative; 
+}
+.price-section-art2{
+    width: 50px; 
+    background-color:rgb(255, 255, 255) ;
+    position: absolute; 
+    margin-left: 950px; 
+    margin-top: 85px;    
+}
+.carta p {
+    padding-bottom: 10px;
+    font-size: 12px;
+    font-style: oblique;
+}
+.ver-la-carta {
+    margin: auto;
+    margin-top: 30px;
+    width: 300px;
+    height: 50px;
+    padding: 5px;
+    background-color: rgb(173, 100, 47);
+    cursor: pointer; 
+}
+.ver-la-carta p {
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    color: cornsilk;
+    font-size: 16px;
+}
+.section-form {
+    width: 100%;
+    height: 600px;
+    background-image: url(https://s3.amazonaws.com/fathom_media/photos/Montreal-Atwater-Cocktail-Club-Main.jpg) ;
+    background-size: cover;
+}
+.section-form h3 {
+    margin: auto;
+    padding-top: 80px;
+    text-align: center;
+    color: antiquewhite;
+    font-size: 40px;
+}
+.form-content-reservas {
+    float: left;
+    margin-top: 50px;
+    margin-left: 250px;
+}
+.personas-horas label {
+    color: antiquewhite;
+    font-size: 20px; 
+}
+.personas-horas .hora {
+    margin-left: 115px;
+}
+.personas-horas_select select {
+    display: inline-block;
+    width: 200px;
+    height: 30px;
+}
+.mesa label {
+    color: antiquewhite;
+    font-size: 20px;
+    display: block;
+}
+.mesa select{
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+}
+.form-content-reservas .reservar {
+    margin-top: 35px;
+    width: 100%;
+    height: 30px;
+    cursor: pointer;
+}
+.disponibilidad {
+    padding-top: 245px;
+    width: 405px;
+    height: auto;
+    margin-left: 250px;
+}
+.disponibilidad p{
+    color: antiquewhite;
+    font-size: 14px;
+}
+.disponibilidad button{
+    display:block;
+    width: 100%;
+    height: 30px;
+    margin: 10px;
+    margin-left: 0px;
+    cursor: pointer;
+}
+.logo {
+    float: right;
+    margin-right: 350px;
+    margin-top: 0px;
+    padding-bottom: 100px;
+}
+.logo h3 {
+    color: rgb(173, 100, 47);
+}
+.logo h4 {
+    color: antiquewhite;
+}
+.logo p {
+    color: antiquewhite;
+    font-size: 12px;
+}
+.redes-sociales {
+    width: 100%;
+    height: 250px;
+    background-color:rgb(36, 36, 46) ;
+}
+.redes-sociales h2 {
+    text-align: center;
+    color: antiquewhite;
+    padding-top: 40px;
+    text-decoration: underline overline; 
+}
+.facebook {
+    width: 115px;
+    height: 20px;
+    border: 2px;
+    border-color: rgb(168, 166, 164);
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255) ;
+    display: inline-block;
+    padding: 20px;
+    padding-left: 30px;
+    margin-top: 60px;
+    margin-left: 475px;
+}
+.instagram {
+    width: 115px;
+    height: 20px;
+    border: 2px;
+    border-color: rgb(168, 166, 164);
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255) ;
+    display: inline-block;
+    padding: 20px;
+    margin-top: 60px;
+    margin-left: 50px;
+}
+.redes-sociales a {
+    text-decoration: none;
+    font-weight: bold;
+    color:rgb(36, 36, 46) ;
+    text-align: center;
+}
+.footer-content {
+    position: absolute;
+    width: 100%;
+    height: 220px;
+    background-color: rgb(73, 73, 85);
+}
+.footer-content section{
+    display: inline-block;
+    margin-left: 200px;
+}
+.footer-content p {
+    font-size: 12px;
+    color:rgb(255, 255, 255) ;
+}
+.footer-content h4 {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+.footer-content a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+}
+.footer-content ul{
+    list-style: none;
+    padding-left: 0%;
+}
+.footer-content span{
+    display: block;
+    font-size: 12px;
+    padding-left: 20px;
+    padding-top: 15px;
+    color:rgb(255, 255, 255);
+}

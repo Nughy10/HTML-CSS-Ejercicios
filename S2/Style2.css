@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100;8..144,300;8..144,500;8..144,700&display=swap");
+
+* {
+  font-family: "Roboto Flex", sans-serif;
+}
+html {
+  font-size: 18px;
+}
+div {
+  position: relative;
+}
+.logo-container {
+  float: left;
+}
+.form-container {
+  float: left;
+  max-width: 550px;
+  z-index: 1;
+}
+.form-group {
+  margin: 20px auto;
+  max-width: 550px; 
+  margin-left: 300px;
+}
+.pointer{
+  cursor: pointer;
+}
+.eye-icon{
+  cursor: pointer; 
+}
+input {
+  display: block;
+  height: 30px;
+  width: 100%;
+  margin-top: 15px;
+}
+input.input-checkbox {
+  height: 30px;
+  width: 30px;
+  margin-top: 0;
+}
+.button-container {
+  float: left;
+  width: 40%;
+}
+.check-container {
+  display: inline-block;
+  width: 35%;
+}
+button {
+  background-color: white;
+  border: 1px solid black;
+  padding: 15px 40px;
+}
+ul {
+  columns: 2;
+  list-style: none;
+}
+ul li::before {
+  content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #196fad; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+.show-password {
+  position: absolute;
+  right: 0;
+  top: -8px;
+  color: #196fad;
+  height: 30px;
+}
+.show-password img {
+  max-width: 30px;
+  position: relative;
+  top: 8px;
+  left: -2px;
+}
+.button-container, check-container {
+  display: inline;
+}
+.form-submit{
+  display: flex;
+  margin: 20px auto;
+  max-width: 550px; 
+  margin-left: 300px;
+}
