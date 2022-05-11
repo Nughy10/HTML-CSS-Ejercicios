@@ -75,6 +75,7 @@
 }
 .main-gallery{
     width: calc(25% - 8px);
+    min-width: 185px;
     margin-left: 4px;
     margin-right: 4px;
     margin-bottom: 30px;
@@ -252,7 +253,8 @@
     }
 }
 @media (min-width: 768px){
-    p{
+    .footer-class
+    p {
         font-size: 16px;
     }
 }
