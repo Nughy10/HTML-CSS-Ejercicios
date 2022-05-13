@@ -379,10 +379,11 @@ header{
     &__gallery i{
         display: flex; 
         text-decoration: none; 
+        cursor: pointer;  
 
         @include tablet{
             font-size: $text-font; 
-            margin-left: 40px;   
+            margin-left: 40px;  
         }
         @include desktop-normal{
             font-size: $subsubtitle-font;
@@ -391,7 +392,7 @@ header{
             font-size: $midtitle-font;
         } 
         @include desktop-extra-big{
-            font-size: $title-font;
+            font-size: $title-font; 
         }
     }
 }
@@ -493,7 +494,8 @@ header{
     }
 
     &__news i{
-        text-decoration: none; 
+        text-decoration: none;
+        cursor: pointer;  
 
         @include tablet{
             font-size: $text-font; 
@@ -558,6 +560,8 @@ header{
         }
 
         i{
+            cursor: pointer; 
+
             @include tablet{
                 font-size: $text-font; 
             }
@@ -618,6 +622,7 @@ header{
     }
 
     &__extra p{
+        cursor: pointer; 
 
         @include tablet{
             font-size: $link-font; 
@@ -637,6 +642,7 @@ header{
         display: flex; 
         text-decoration: none; 
         color: $dark-color;
+        cursor: pointer; 
 
         @include tablet{
             font-size: $link-font; 

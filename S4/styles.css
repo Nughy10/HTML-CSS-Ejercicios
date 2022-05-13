@@ -567,6 +567,7 @@ header {
   display: -ms-flexbox;
   display: flex;
   text-decoration: none;
+  cursor: pointer;
 }
 
 @media only screen and (min-width: 768px) {
@@ -744,6 +745,7 @@ header {
 
 .container-5__news i {
   text-decoration: none;
+  cursor: pointer;
 }
 
 @media only screen and (min-width: 768px) {
@@ -846,6 +848,10 @@ header {
   }
 }
 
+.container-6__offers i {
+  cursor: pointer;
+}
+
 @media only screen and (min-width: 768px) {
   .container-6__offers i {
     font-size: 14px;
@@ -933,6 +939,10 @@ header {
   }
 }
 
+.container-7__extra p {
+  cursor: pointer;
+}
+
 @media only screen and (min-width: 768px) {
   .container-7__extra p {
     font-size: 10px;
@@ -963,6 +973,7 @@ header {
   display: flex;
   text-decoration: none;
   color: black;
+  cursor: pointer;
 }
 
 @media only screen and (min-width: 768px) {
