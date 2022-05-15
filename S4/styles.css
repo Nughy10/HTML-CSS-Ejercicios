@@ -51,6 +51,7 @@ header {
 @media only screen and (min-width: 1024px) {
   .container-1__left p {
     font-size: 16px;
+    margin-right: 20px;
   }
 }
 
